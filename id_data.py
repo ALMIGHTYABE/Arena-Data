@@ -39,8 +39,8 @@ try:
     timestamp = int(my_datetime.replace(tzinfo=timezone.utc).timestamp())
     tc_ids_query['variables']['startTime'] = timestamp
 
+    # Pulling data from subgraph
     ids_df = pd.DataFrame()
-
     for i in itertools.count(0, 100):
         tc_ids_query['variables']['offset'] = i
         response = requests.post(url=subgraph, json=tc_ids_query)
@@ -57,11 +57,10 @@ try:
     if ids_df.empty:
         raise Exception('Dataframe is empty')
 
-    # Function to convert timestamp to datetime UTC
+    # Convert timestamp fields to datetime UTC and create new columns
     def convert_to_datetime(timestamp_str):
         return datetime.fromtimestamp(int(timestamp_str), tz=timezone.utc)
 
-    # Convert timestamp fields to datetime UTC and create new columns
     timestamp_fields = ['timestamp.endTimestamp', 'timestamp.startTimestamp', 'timestamp.registrationStart', 'timestamp.registrationEnd']
     for field in timestamp_fields:
         new_col_name = field.replace('timestamp.', '') + '_datetime'
@@ -69,8 +68,11 @@ try:
 
     ids_df = ids_df.astype(str)
     
+    # Comparing with current data
     ids_df_old = pd.read_csv(id_data_csv)
-    drop_index = ids_df_old[ids_df_old['registrationStart_datetime']>datetime.fromtimestamp(timestamp)].index
+    ids_df_old['registrationStart_datetime'] = pd.to_datetime(ids_df_old['registrationStart_datetime'])
+    timestamp_datetime = datetime.fromtimestamp(timestamp, tz=timezone.utc)
+    drop_index = ids_df_old[ids_df_old['registrationStart_datetime']> timestamp_datetime].index
     index_list = drop_index.to_list()
     index_list = list(map(lambda x: x + 2, index_list))
 
