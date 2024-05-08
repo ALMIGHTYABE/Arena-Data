@@ -1,0 +1,6 @@
+pandas==2.0.3
+web3==6.16.0
+PyYAML==6.0
+requests==2.31.0
+gspread==5.7.2
+gspread-dataframe==3.3.0
