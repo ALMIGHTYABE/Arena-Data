@@ -76,3 +76,5 @@
 [2024-05-09 06:12:13,650] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-05-09 06:29:36,279] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-05-09 06:29:38,704] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-05-09 06:38:58,254] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-09 06:39:00,585] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
