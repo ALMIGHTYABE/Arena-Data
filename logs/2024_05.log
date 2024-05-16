@@ -2189,3 +2189,5 @@ Exception: Dataframe is empty
 [2024-05-16 06:26:20,117] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-05-16 06:33:59,758] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-05-16 06:34:03,109] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-05-16 06:47:50,540] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-16 06:47:52,838] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
