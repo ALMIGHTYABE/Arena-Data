@@ -3823,3 +3823,5 @@ Traceback (most recent call last):
   File "id_data.py", line 47, in <module>
     data = response.json()['data']['tradingCompetitions']
 TypeError: 'NoneType' object is not subscriptable
+[2024-05-20 13:47:42,580] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-20 13:47:44,243] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
