@@ -3825,3 +3825,5 @@ Traceback (most recent call last):
 TypeError: 'NoneType' object is not subscriptable
 [2024-05-20 13:47:42,580] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-05-20 13:47:44,243] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-05-20 14:09:04,135] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-20 14:09:06,800] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
