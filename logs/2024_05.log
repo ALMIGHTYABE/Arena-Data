@@ -3931,3 +3931,5 @@ TypeError: 'NoneType' object is not subscriptable
 [2024-05-21 04:47:34,825] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-05-21 05:09:47,977] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-05-21 05:09:50,177] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-05-21 05:26:35,040] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-21 05:26:37,244] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
