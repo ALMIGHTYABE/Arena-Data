@@ -8575,3 +8575,5 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/urllib/request.py", line 649, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+[2024-05-31 23:23:09,203] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-05-31 23:23:11,757] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
