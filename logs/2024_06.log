@@ -7256,3 +7256,5 @@ gspread.exceptions.APIError: {'code': 500, 'message': 'Internal error encountere
 [2024-06-27 08:12:34,773] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-06-27 08:29:21,841] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-06-27 08:29:23,675] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-06-27 08:39:51,639] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-06-27 08:39:54,538] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
