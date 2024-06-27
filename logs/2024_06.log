@@ -7389,3 +7389,5 @@ Traceback (most recent call last):
 requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 [2024-06-27 14:26:46,289] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-06-27 14:26:48,598] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-06-27 14:35:27,949] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-06-27 14:35:29,712] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
