@@ -7232,3 +7232,17 @@ Exception: Dataframe is empty
 [2024-06-27 06:32:43,200] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-06-27 06:47:52,434] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-06-27 06:47:54,583] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-06-27 07:09:05,591] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-06-27 07:09:23,487] 	ERROR 	104 	id_data.py 	<module>() 	Error occurred during TC ID Data process. Error: {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}
+Traceback (most recent call last):
+  File "id_data.py", line 92, in <module>
+    gs = gc.open_by_key(sheetkey)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/client.py", line 170, in open_by_key
+    return Spreadsheet(self, {"id": key})
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/spreadsheet.py", line 34, in __init__
+    metadata = self.fetch_sheet_metadata()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/spreadsheet.py", line 254, in fetch_sheet_metadata
+    r = self.client.request("get", url, params=params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/client.py", line 92, in request
+    raise APIError(response)
+gspread.exceptions.APIError: {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}
