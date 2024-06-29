@@ -7657,3 +7657,5 @@ requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetErro
 [2024-06-29 04:47:54,858] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-06-29 05:10:05,318] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-06-29 05:10:07,532] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-06-29 05:28:43,872] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-06-29 05:28:47,227] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
