@@ -2574,3 +2574,5 @@ Traceback (most recent call last):
 Exception: Dataframe is empty
 [2024-08-06 07:23:20,637] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-08-06 07:23:22,646] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-08-06 07:33:11,762] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-08-06 07:33:14,177] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
