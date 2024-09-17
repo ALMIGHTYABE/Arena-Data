@@ -5513,3 +5513,9 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/requests/adapters.py", line 517, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='squid.subsquid.io', port=443): Max retries exceeded with url: /thena-squid/v/v4/graphql (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'squid.subsquid.io'. (_ssl.c:1131)")))
+[2024-09-17 10:47:34,443] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-09-17 10:47:34,734] 	ERROR 	104 	id_data.py 	<module>() 	Error occurred during TC ID Data process. Error: Dataframe is empty
+Traceback (most recent call last):
+  File "id_data.py", line 58, in <module>
+    raise Exception('Dataframe is empty')
+Exception: Dataframe is empty
