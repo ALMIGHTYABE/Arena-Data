@@ -9200,3 +9200,5 @@ gspread.exceptions.APIError: <!DOCTYPE html>
   <p><b>502.</b> <ins>That’s an error.</ins>
   <p>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.  <ins>That’s all we know.</ins>
 
+[2024-09-27 20:28:42,629] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-09-27 20:28:45,800] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
