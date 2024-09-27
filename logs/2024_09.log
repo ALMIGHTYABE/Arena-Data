@@ -9028,3 +9028,5 @@ gspread.exceptions.APIError: <!DOCTYPE html>
 [2024-09-27 03:41:00,547] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-09-27 03:49:01,385] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-09-27 03:49:03,843] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-09-27 04:13:40,734] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-09-27 04:13:42,477] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
