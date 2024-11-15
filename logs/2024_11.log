@@ -5356,3 +5356,5 @@ requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 [2024-11-15 20:40:09,589] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-11-15 20:47:52,558] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-11-15 20:47:54,326] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-11-15 21:10:18,560] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-11-15 21:10:21,697] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
