@@ -9728,3 +9728,9 @@ Traceback (most recent call last):
   File "id_data.py", line 58, in <module>
     raise Exception('Dataframe is empty')
 Exception: Dataframe is empty
+[2024-11-25 21:27:02,886] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-11-25 21:27:06,298] 	ERROR 	104 	id_data.py 	<module>() 	Error occurred during TC ID Data process. Error: 'data'
+Traceback (most recent call last):
+  File "id_data.py", line 47, in <module>
+    data = response.json()['data']['tradingCompetitions']
+KeyError: 'data'
