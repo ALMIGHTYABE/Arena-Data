@@ -684,3 +684,17 @@ Exception: Dataframe is empty
 [2024-12-03 13:36:50,233] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-12-03 13:48:55,196] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-12-03 13:48:57,491] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-12-03 14:10:51,238] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-12-03 14:11:15,396] 	ERROR 	104 	id_data.py 	<module>() 	Error occurred during TC ID Data process. Error: {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
+Traceback (most recent call last):
+  File "id_data.py", line 92, in <module>
+    gs = gc.open_by_key(sheetkey)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/client.py", line 170, in open_by_key
+    return Spreadsheet(self, {"id": key})
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/spreadsheet.py", line 34, in __init__
+    metadata = self.fetch_sheet_metadata()
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/spreadsheet.py", line 254, in fetch_sheet_metadata
+    r = self.client.request("get", url, params=params)
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/gspread/client.py", line 92, in request
+    raise APIError(response)
+gspread.exceptions.APIError: {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}
