@@ -802,3 +802,5 @@ gspread.exceptions.APIError: {'code': 503, 'message': 'The service is currently 
 [2024-12-04 08:44:38,713] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2024-12-04 08:55:33,743] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2024-12-04 08:55:35,856] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2024-12-04 09:12:49,669] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2024-12-04 09:12:52,765] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
