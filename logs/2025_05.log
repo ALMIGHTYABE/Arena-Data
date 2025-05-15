@@ -5836,3 +5836,9 @@ Traceback (most recent call last):
   File "id_data.py", line 58, in <module>
     raise Exception('Dataframe is empty')
 Exception: Dataframe is empty
+[2025-05-15 13:39:36,457] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2025-05-15 13:39:36,892] 	ERROR 	104 	id_data.py 	<module>() 	Error occurred during TC ID Data process. Error: Dataframe is empty
+Traceback (most recent call last):
+  File "id_data.py", line 58, in <module>
+    raise Exception('Dataframe is empty')
+Exception: Dataframe is empty
