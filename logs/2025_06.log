@@ -8180,3 +8180,5 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/urllib/request.py", line 649, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 400: Bad Request
+[2025-06-23 08:18:58,302] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2025-06-23 08:19:01,479] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
