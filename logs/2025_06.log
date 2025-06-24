@@ -8296,3 +8296,5 @@ urllib.error.HTTPError: HTTP Error 400: Bad Request
 [2025-06-24 07:13:54,701] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
 [2025-06-24 07:32:00,048] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
 [2025-06-24 07:32:03,120] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
+[2025-06-24 07:49:47,427] 	INFO 	32 	id_data.py 	<module>() 	TC ID Data Started
+[2025-06-24 07:49:49,485] 	INFO 	102 	id_data.py 	<module>() 	TC ID Data Ended
